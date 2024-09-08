@@ -110,7 +110,6 @@ while running:
     display_score(screen, score)
     pygame.display.flip()
 
-    # Save frame
     frame = pygame.surfarray.array3d(screen)
     frame = np.rot90(frame, 3)
     frames.append(frame)
